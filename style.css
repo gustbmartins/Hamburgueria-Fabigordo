@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+}
+
+.yellow-container {
+    background-image: url("./img/menu.jpg");
+}
+
+span {
+    color: #E02401;
+}
+
+p {
+    font-size: 25px;
+}
+/*--------------------------------------------HEADER------------------------------------------------*/
+
+#title {
+
+    height: 450px;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+#chefe {
+    width: 600px;
+}
+
+.fabigordo {
+    text-indent: 60%;
+}
+
+/*----------------------------------------   Apresentação     ----------------------------------------*/
+
+.hamb-apresentação {
+    width: 800px;
+    margin-top: 35%;
+}
+
+#historia {
+    max-width: 300px;
+    margin: 15% 0 0 10%;
+
+}
+
+#historia h2 {
+    font-size: 45px;
+}
+
+
+
+
+/*---------------------------------------   Carousel  -----------------------------------------------------*/
+
+#carouselExampleCaptions {
+
+    height: 450px;
+    margin-top: 5%;
+
+
+}
+
+.hamburguers {
+    width: 350px;
+
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+
+}
+
+#australiano {
+    margin: -52px 0 -32px;
+
+}
+
+#x-egg {
+    margin-top: 20px;
+
+}
+
+.text-egg {
+    margin-top: 15px;
+}
+
+
+/*-------------------------------------- Pedidos  --------------------------------------------------------------*/
+
+h2 {
+    margin-top: 7%;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.pedidos {
+    margin-top: 70px;
+    padding-left: 10%;
+}
+
+.card {
+    width: 360px;
+    height: 200px;
+}
+
+.card-header {
+
+    color: white;
+    font-weight: bold;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+i {
+    padding: 10px;
+}
+
+/*------------------------------- Footer --------------------------------------------------------- */
+
+footer {
+
+    height: 150px;
+    margin-top: 20%;
+    padding-top: 25px;
+}
+
+/*--------------------------------------- Responsivo ---------------------------------------------------*/
+
+@media only screen and (max-width: 820px) {
+
+    #chefe {
+        width: 300px;
+        margin-top: 18%;
+    }
+
+    .hamb-apresentação {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .fabigordo {
+        text-indent: 0;
+    }
+    
+}
